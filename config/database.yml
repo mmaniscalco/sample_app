@@ -19,8 +19,11 @@ test:
   timeout: 5000
 
 production:
+  host: ec2-54-227-255-156.compute-1.amazonaws.com
+  port: 5432
   adapter: postgresql
   database: d8qd5sn9bi43rv
   pool: 5
   username: zkuhogjhxayyht
+  password: 8sgkpE7RhD-hlhqSpkQFPOqbF2
   timeout: 5000

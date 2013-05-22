@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f892b8e-6790-4d30-adbc-41bf57e0f459" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
@@ -16,7 +17,7 @@
     <file path="$PROJECT_DIR$/log/test.log" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1368926964654" ignored="false" />
     <file path="/about.html.erb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1368926274413" ignored="false" />
     <file path="/contact.html.erb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1368926810201" ignored="false" />
-    <file path="/Dummy.txt" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369242940048" ignored="false" />
+    <file path="/Dummy.txt" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369243094419" ignored="false" />
     <file path="/Guardfile" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1368928219904" ignored="false" />
     <file path="/application_helper.rb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369003319486" ignored="false" />
     <file path="/application.html.erb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369238761176" ignored="false" />
@@ -33,7 +34,7 @@
     <file path="/user.rb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369179714636" ignored="false" />
     <file path="/20130521164257_add_index_to_users_email.rb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369154599233" ignored="false" />
     <file path="/users_controller.rb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369238864780" ignored="false" />
-    <file path="/database.yml" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369182924343" ignored="false" />
+    <file path="/database.yml" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369243420787" ignored="false" />
     <file path="/factories.rb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369183623743" ignored="false" />
     <file path="/show.html.erb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369184439757" ignored="false" />
     <file path="/test.rb" changelist="6f892b8e-6790-4d30-adbc-41bf57e0f459" time="1369183819226" ignored="false" />
@@ -63,10 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="2" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.5109489">
+            <state line="33" column="29" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="38" selection-start="685" selection-end="685" vertical-scroll-proportion="0.81751823">
               <folding />
             </state>
           </provider>
@@ -103,7 +113,6 @@
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/factories.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
@@ -116,6 +125,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -717,7 +727,11 @@
       <created>1369242943071</created>
       <updated>1369242943071</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add SSL in production">
+      <created>1369243096316</created>
+      <updated>1369243096316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -787,7 +801,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished user signup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SSL in production" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -806,6 +820,7 @@
     <MESSAGE value="Finished Layouts and Routes." />
     <MESSAGE value="completed examples." />
     <MESSAGE value="Finished user signup" />
+    <MESSAGE value="Add SSL in production" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -814,13 +829,6 @@
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="18" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="582" selection-end="582" vertical-scroll-proportion="0.65346533">
           <folding />
         </state>
       </provider>
@@ -918,7 +926,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="2" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.5109489">
+        <state line="33" column="29" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="38" selection-start="685" selection-end="685" vertical-scroll-proportion="0.81751823">
           <folding />
         </state>
       </provider>
